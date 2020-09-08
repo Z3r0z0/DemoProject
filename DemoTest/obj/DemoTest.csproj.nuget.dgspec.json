@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoTest\\DemoTest.csproj": {}
+    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoTest\\DemoTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\DemoCode.csproj": {
+    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\DemoCode.csproj",
-        "projectName": "DemoCode",
-        "projectPath": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\DemoCode.csproj",
+        "projectUniqueName": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj",
+        "projectName": "DemoCode_Core",
+        "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj",
         "packagesPath": "C:\\Users\\lwnmut1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\obj\\",
+        "outputPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lwnmut1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,24 @@
         }
       }
     },
-    "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoTest\\DemoTest.csproj": {
+    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj",
+        "projectName": "DemoCode_Framework",
+        "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoTest\\DemoTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoTest\\DemoTest.csproj",
+        "projectUniqueName": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoTest\\DemoTest.csproj",
         "projectName": "DemoTest",
-        "projectPath": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoTest\\DemoTest.csproj",
+        "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoTest\\DemoTest.csproj",
         "packagesPath": "C:\\Users\\lwnmut1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoTest\\obj\\",
+        "outputPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lwnmut1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +89,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\DemoCode.csproj": {
-                "projectPath": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\DemoCode.csproj"
+              "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj": {
+                "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj"
+              },
+              "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj": {
+                "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj"
               }
             }
           }

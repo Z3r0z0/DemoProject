@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\DemoCode.csproj",
-      "projectName": "DemoCode",
-      "projectPath": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\DemoCode.csproj",
+      "projectUniqueName": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj",
+      "projectName": "DemoCode_Core",
+      "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj",
       "packagesPath": "C:\\Users\\lwnmut1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lwnmut1\\source\\repos\\DemoProject\\DemoCode\\obj\\",
+      "outputPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lwnmut1\\AppData\\Roaming\\NuGet\\NuGet.Config",

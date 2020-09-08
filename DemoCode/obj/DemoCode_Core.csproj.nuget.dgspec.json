@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode.csproj": {}
+    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode.csproj": {
+    "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode.csproj",
-        "projectName": "DemoCode",
-        "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode.csproj",
+        "projectUniqueName": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj",
+        "projectName": "DemoCode_Core",
+        "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\DemoCode_Core.csproj",
         "packagesPath": "C:\\Users\\lwnmut1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode\\obj\\",
         "projectStyle": "PackageReference",
