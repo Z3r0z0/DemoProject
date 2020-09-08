@@ -1,0 +1,12 @@
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\bin\Debug\netcoreapp3.1\DemoCode.exe
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\bin\Debug\netcoreapp3.1\DemoCode.deps.json
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\bin\Debug\netcoreapp3.1\DemoCode.runtimeconfig.json
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\bin\Debug\netcoreapp3.1\DemoCode.runtimeconfig.dev.json
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\bin\Debug\netcoreapp3.1\DemoCode.dll
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\bin\Debug\netcoreapp3.1\DemoCode.pdb
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode.AssemblyInfoInputs.cache
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode.AssemblyInfo.cs
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode.csproj.CoreCompileInputs.cache
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode.dll
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode.pdb
+C:\Users\lwnmut1\source\repos\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode.genruntimeconfig.cache
