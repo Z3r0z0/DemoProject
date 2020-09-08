@@ -1,0 +1,11 @@
+branches:
+  only:
+    - master
+
+platform: Any CPU
+
+configuration: Debug
+
+# NuGet packete zurverfügung stellen, vor dem Ausführen
+before build:
+  - nuget restore
