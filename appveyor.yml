@@ -6,6 +6,5 @@ platform: Any CPU
 
 configuration: Debug
 
-# NuGet packete zurverfügung stellen, vor dem Ausführen
-before build:
+before_build:
   - nuget restore
