@@ -24,7 +24,7 @@ namespace DemoTest
         [InlineData(1234, 2)]
         public void TestPositiveFramework(int baseValue, int expo)
         {
-            Assert.Equal(0, ExpoFramework.GetExpo(baseValue, expo));
+            Assert.Equal(Math.Pow(baseValue, expo), ExpoFramework.GetExpo(baseValue, expo));
         }
     }
 }
