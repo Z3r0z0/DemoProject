@@ -9,7 +9,7 @@ configuration: Debug
 before_build:
   - nuget restore
 
-script:
+after_build:
   - dotnet build
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Exclude="[xunit*]*" /p:excludebyfile="**/*.Designer.cs"
   - bash <(curt -s https://codecov.io/base) -t $CODECOV_TOKEN
