@@ -19,12 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Exclude="[xunit*]*" /p:excludebyfile="**/*.Designer.cs"
-      - run: bash <(curl -s https://codecov.io/bash) -Z
-
-     # - name: CodeCov
-     #   uses: codecov/codecov-action@v1
-     #   with:
-     #     file: .\MyProject_coverage.xml
+      
+      - name: CodeCov
+        uses: codecov/codecov-action@v1
+        #with:
+          #file: .\MyProject_coverage.xml
 
   # This workflow contains a single job called "build"
   build:
