@@ -5,3 +5,14 @@ C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\obj\Debug\DemoC
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\obj\Debug\DemoCode_Framework.csproj.CoreCompileInputs.cache
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\obj\Debug\DemoCode_Framework.exe
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\obj\Debug\DemoCode_Framework.pdb
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.abstractions.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.assert.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.core.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.execution.desktop.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.assert.xml
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.core.xml
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\bin\Debug\xunit.execution.desktop.xml
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode_Framework\obj\Debug\DemoCode_Framework.csproj.CopyComplete

@@ -201,3 +201,4 @@ C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoTest\obj\Debug\netcoreapp3.1\D
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoTest\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.testadapter.dll
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoTest\bin\Debug\netcoreapp3.1\xunit.runner.reporters.net452.dll
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoTest\bin\Debug\netcoreapp3.1\xunit.runner.utility.net452.dll
+C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoTest\obj\Debug\netcoreapp3.1\DemoTest.csproj.CoreCompileInputs.cache

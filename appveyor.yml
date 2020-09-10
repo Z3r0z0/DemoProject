@@ -8,9 +8,10 @@ configuration: Debug
 
 before_build:
   - nuget restore
+  - choco install opencover.portable
+  - choco install codecov
 
 after_build:
   - dotnet build
-  - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Exclude="[xunit*]*" /p:excludebyfile="**/*.Designer.cs"
-  - bash <(curt -s https://codecov.io/base) -t $CODECOV_TOKEN
-
+  - OpenCover.Console.exe -register:user -target:"%xunti20%\xunit.console.x86.exe" -targetargs:".\DemoTest\obj\Debug\netcoreapp3.1\DemoTest.dll -noshadow" -output:".\Myproject_coverage.xml"
+  - codecov -f "MyProject_coverage.xml"

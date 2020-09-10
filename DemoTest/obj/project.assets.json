@@ -1665,8 +1665,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "OpenCover": "4.7.922",
-          "xunit": "2.4.1"
+          "OpenCover": "4.7.922"
         },
         "compile": {
           "bin/placeholder/DemoCode_Core.dll": {}
