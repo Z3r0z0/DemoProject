@@ -23,20 +23,9 @@ jobs:
       - run: choco install opencover.portable
       - run: OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\DemoTest\obj\Debug\netcoreapp3.1\DemoTest.dll -noshadow" -output:".\MyProject_coverage.xml"
 
-      - name: Setup .Net Core
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: 3.1.401
+      - run: dotnet build
 
-     # - name: ReportGenerator
-     #   uses: danielpalme/ReportGenerator-GitHub-Action@4.6.7
-     #   with:
-     #     reports: 'coverage.xml'
-     #     targetdir: '.\'
-     #     title: 'MyProject_coverage.xml'
-
-
-      - name: cover
+      - name: CodeCov
         uses: codecov/codecov-action@v1
         with:
           file: .\MyProject_coverage.xml
