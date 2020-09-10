@@ -25,12 +25,16 @@ jobs:
         with:
           dotnet-version: 3.1.401
 
-      - name: ReportGenerator
-        uses: danielpalme/ReportGenerator-GitHub-Action@4.6.7
-        with:
-          reports: 'coverage.xml'
-          targetdir: '.\'
-          title: 'MyProject_coverage.xml'
+     # - name: ReportGenerator
+     #   uses: danielpalme/ReportGenerator-GitHub-Action@4.6.7
+     #   with:
+     #     reports: 'coverage.xml'
+     #     targetdir: '.\'
+     #     title: 'MyProject_coverage.xml'
+
+      - name: OpenCov
+        - run: choco install opencover.portable
+        - run: OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\DemoTest\obj\Debug\netcoreapp3.1\DemoTest.dll -noshadow" -output:".\MyProject_coverage.xml"
 
       - name: cover
         uses: codecov/codecov-action@v1
