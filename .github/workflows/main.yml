@@ -18,20 +18,10 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Exclude="[xunit*]*" /p:excludebyfile="**/*.Designer.cs"
+      #- run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Exclude="[xunit*]*" /p:excludebyfile="**/*.Designer.cs"
       
-      
-
-  codecoverage:
-    name: Coode Coverage
-    runs-on: windows latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Exclude="[xunit*]*" /p:excludebyfile="**/*.Designer.cs"
-
-      - name: CodeCov
-        uses: codecov/codecov-action@v1
-
+     #- name: CodeCov
+        #uses: codecov/codecov-action@v1
 
   # This workflow contains a single job called "build"
   build:
