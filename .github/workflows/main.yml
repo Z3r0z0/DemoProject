@@ -32,10 +32,10 @@ jobs:
           targetdir: '.\'
           title: 'MyProject_coverage.xml'
 
-      - steps:
-        - uses: codecov/codecov-action@v1
-          with:
-            file: .\MyProject_coverage.xml
+      - name: cover
+        uses: codecov/codecov-action@v1
+        with:
+          file: .\MyProject_coverage.xml
 
   # This workflow contains a single job called "build"
   build:
