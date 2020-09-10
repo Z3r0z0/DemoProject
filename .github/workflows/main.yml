@@ -19,11 +19,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: dotnet test
+      - run: dotnet build
       
+      - run: choco install xunit
+
       - run: choco install opencover.portable
       - run: OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\DemoTest\obj\Debug\netcoreapp3.1\DemoTest.dll -noshadow" -output:".\MyProject_coverage.xml"
-
-      - run: dotnet build
 
       - name: CodeCov
         uses: codecov/codecov-action@v1
