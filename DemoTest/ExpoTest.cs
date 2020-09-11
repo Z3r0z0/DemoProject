@@ -18,13 +18,5 @@ namespace DemoTest
             Assert.Equal(Math.Pow(baseValue, expo), Expo.GetExpo(baseValue, expo));
         }
 
-        [Theory]
-        [InlineData(10, 3)]
-        [InlineData(2, 16)]
-        [InlineData(1234, 2)]
-        public void TestPositiveFramework(int baseValue, int expo)
-        {
-            Assert.Equal(Math.Pow(baseValue, expo), ExpoFramework.GetExpo(baseValue, expo));
-        }
     }
 }
