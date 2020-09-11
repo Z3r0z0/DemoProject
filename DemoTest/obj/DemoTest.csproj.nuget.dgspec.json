@@ -66,23 +66,7 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj",
         "projectName": "DemoCode_Framework",
-        "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj",
-        "packagesPath": "C:\\Users\\lwnmut1\\.nuget\\packages\\",
-        "projectStyle": "PackagesConfig",
-        "configFilePaths": [
-          "C:\\Users\\lwnmut1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        },
-        "packagesConfigPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\packages.config"
+        "projectPath": "C:\\Users\\lwnmut1\\Documents\\GitHub\\DemoProject\\DemoCode_Framework\\DemoCode_Framework.csproj"
       },
       "frameworks": {
         "net472": {}

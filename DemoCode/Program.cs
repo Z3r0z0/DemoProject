@@ -6,7 +6,7 @@ namespace DemoCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Expo.GetExpo(10, 3));
+            Console.WriteLine(Expo.GetExpo(10, 3))
         }
 
     }
