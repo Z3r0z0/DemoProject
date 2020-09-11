@@ -11,6 +11,9 @@ before_build:
   - choco install opencover.portable
   - choco install codecov
 
+build:
+  - dotnet run -o ".\"
+
 after_build:
   - dotnet build
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Exclude="[xunit*]*" /p:excludebyfile="**/*.Designer.cs"
