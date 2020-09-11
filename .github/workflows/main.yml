@@ -34,6 +34,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Run Build
+      - name: Restore .Net
         run: dotnet restore
+
+      - name: Restore NuGet
+        run: NuGet restore
+
+      - name: Run Build
         run: dotnet build
