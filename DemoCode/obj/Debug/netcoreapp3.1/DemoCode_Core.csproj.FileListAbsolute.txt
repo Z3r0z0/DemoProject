@@ -9,5 +9,4 @@ C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\D
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode_Core.dll
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode_Core.pdb
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode_Core.genruntimeconfig.cache
-C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode_Core.csprojAssemblyReference.cache
 C:\Users\lwnmut1\Documents\GitHub\DemoProject\DemoCode\obj\Debug\netcoreapp3.1\DemoCode_Core.csproj.CoreCompileInputs.cache

@@ -1,5 +1,4 @@
 using DemoCode;
-using DemoCode_Framework;
 using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.ObjectModel;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using System;

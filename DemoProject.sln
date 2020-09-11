@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoCode_Core", "DemoCode\D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoTest", "DemoTest\DemoTest.csproj", "{A0C327B0-3D16-4BC2-AD57-B6F32798D6B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCode_Framework", "DemoCode_Framework\DemoCode_Framework.csproj", "{52BFF4A2-E559-4741-B9EB-6DC294C25B2E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{A0C327B0-3D16-4BC2-AD57-B6F32798D6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0C327B0-3D16-4BC2-AD57-B6F32798D6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0C327B0-3D16-4BC2-AD57-B6F32798D6B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52BFF4A2-E559-4741-B9EB-6DC294C25B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52BFF4A2-E559-4741-B9EB-6DC294C25B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52BFF4A2-E559-4741-B9EB-6DC294C25B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52BFF4A2-E559-4741-B9EB-6DC294C25B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
