@@ -12,7 +12,7 @@ before_build:
   - choco install codecov
 
 build:
-  - dotnet run -o ".\"
+  - dotnet run
 
 after_build:
   - dotnet build
