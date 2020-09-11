@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # Test
+      
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v1
         with:
@@ -45,4 +45,4 @@ jobs:
         run: dotnet restore
 
       - name: Run Build
-        run: dotnet build
+        run: dotnet build -o ".\"
