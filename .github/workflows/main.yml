@@ -37,8 +37,5 @@ jobs:
       - name: Restore .Net
         run: dotnet restore
 
-      - name: Restore NuGet
-        run: NuGet restore
-
       - name: Run Build
         run: dotnet build
