@@ -35,7 +35,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: auycro/netframework-action-template
 
       - name: Restore .Net
         run: dotnet restore

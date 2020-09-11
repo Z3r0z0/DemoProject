@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DemoCode\DemoCode_Core.csproj" />
-    <ProjectReference Include="..\DemoCode_Framework\DemoCode_Framework.csproj" />
   </ItemGroup>
 
 </Project>
